@@ -1,0 +1,45 @@
+//
+// Prefix header for all source files of the 'EasyEat4iPhone' target in the 'EasyEat4iPhone' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+//添加预编译
+#import "tooles.h"
+#import "FrameAutoScaleLFL.h"
+#import "AFNetworking.h"
+#endif
+#define AppLanguage @"appLanguage"
+
+#define MAX_SYMBOLS_COUNT_IN_TEXT_VIEW						140
+#define MAX_SYMBOLS_COUNT_IN_TEXT_VIEW_WITH_IMAGE			100
+
+#define	IMAGE_SCALING_SIZE		700
+#define APP_PATH @"http://ts1p.ihangjing.com/App/AndriodV2/"
+//获取城市列表
+#define GetCitylistURLString [NSString stringWithFormat:@"%@getcitylist.aspx", APP_PATH]
+
+#define GetSectionlistURLString(cityid) [NSString stringWithFormat:@"%@GetSectionListByCID.aspx?cid=%@",APP_PATH, cityid]
+
+#define GetCircleListURLString(cityid, sectionid) [NSString stringWithFormat:@"%@GetcircleListBySID.aspx?sid=%@&cid=%@",APP_PATH, sectionid,cityid]
+
+#define GetBuildingListURLString(cityid, pagesize, pageindex) [NSString stringWithFormat:@"%@GetBuildingBycirID.aspx?cid=%@&pagesize=%@&pageindex=%@",APP_PATH, cityid,pagesize, pageindex]
+
+#define GetBindCardURLString(userid,cardnum,password) [NSString stringWithFormat:@"%@bindcard.aspx?uid=%@&cardnum=%@&pwd=%@",APP_PATH,userid,cardnum,password]
+
+#define GetBindShopCardURLString(userid,cardnum,password) [NSString stringWithFormat:@"%@bindshopcard.aspx?uid=%@&cardnum=%@&pwd=%@",APP_PATH,userid,cardnum,password]
+
+#define GetGetCardURLString(userid,password) [NSString stringWithFormat:@"%@getcard.aspx?uid=%@&pwd=%@",APP_PATH,userid,password]
+
+#define GetShopCardURLString(userid,password,shopid) [NSString stringWithFormat:@"%@getshopcard.aspx?uid=%@&pwd=%@&Shopid=%@",APP_PATH,userid,password,shopid]
+
+#define GetCodeURLString(phone) [NSString stringWithFormat:@"%@sendcode.aspx?tel=%@",APP_PATH,phone]
+
+#define GetGiftListURLString(pageindex, Pagesize, sortid, subsortid, Gname) [NSString stringWithFormat:@"%@GetGiftList.aspx?pageindex=%@&Pagesize=%@&sortid=%@&subsortid=%@&Gname=%@",APP_PATH,pageindex, Pagesize, sortid, subsortid, Gname]
+
+#define is_iPhone5                  ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO) 
+
+#define CustomLocalizedString(key, comment) \
+[[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"appLanguage"]] ofType:@"lproj"]] localizedStringForKey:(key) value:@"" table:nil]

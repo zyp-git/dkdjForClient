@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* EasyEat4iPhoneAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {818, 429}}";
+			sepNavSelRange = "{521, 0}";
+			sepNavVisRange = "{0, 653}";
+			sepNavWindowFrame = "{{15, 184}, {877, 557}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* EasyEat4iPhone */ = {
+		activeExec = 0;
+		executables = (
+			446E077814AC4AA600AC7476 /* EasyEat4iPhone */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 446E077814AC4AA600AC7476 /* EasyEat4iPhone */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* EasyEat4iPhone */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* EasyEat4iPhone */,
+		);
+		codeSenseManager = 446E077E14AC4AE600AC7476 /* Code sense */;
+		executables = (
+			446E077814AC4AA600AC7476 /* EasyEat4iPhone */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					266,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 346838172;
+			PBXWorkspaceStateSaveDate = 346838172;
+		};
+		perUserProjectItems = {
+			446E07C814AC50D600AC7476 /* PBXTextBookmark */ = 446E07C814AC50D600AC7476 /* PBXTextBookmark */;
+			446E07C914AC50D600AC7476 /* PBXTextBookmark */ = 446E07C914AC50D600AC7476 /* PBXTextBookmark */;
+			446E07CA14AC50D600AC7476 /* PBXTextBookmark */ = 446E07CA14AC50D600AC7476 /* PBXTextBookmark */;
+			449B7EE614AC54A20073A2C4 /* PBXBookmark */ = 449B7EE614AC54A20073A2C4 /* PBXBookmark */;
+			449B7EED14AC57310073A2C4 /* PBXTextBookmark */ = 449B7EED14AC57310073A2C4 /* PBXTextBookmark */;
+			449B7EEE14AC57310073A2C4 /* PBXTextBookmark */ = 449B7EEE14AC57310073A2C4 /* PBXTextBookmark */;
+			449B7EF214AC57310073A2C4 /* PBXTextBookmark */ = 449B7EF214AC57310073A2C4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 446E077D14AC4AE600AC7476 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	446E077814AC4AA600AC7476 /* EasyEat4iPhone */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EasyEat4iPhone;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	446E077D14AC4AE600AC7476 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	446E077E14AC4AE600AC7476 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	446E078214AC4BA300AC7476 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {444, 222}}";
+			sepNavSelRange = "{225, 0}";
+			sepNavVisRange = "{0, 234}";
+			sepNavWindowFrame = "{{157, 88}, {750, 558}}";
+		};
+	};
+	446E078314AC4BA300AC7476 /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 576}";
+		};
+	};
+	446E07C414AC508500AC7476 /* EasyEat4iPhoneAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {558, 286}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 483}";
+		};
+	};
+	446E07C814AC50D600AC7476 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 446E078214AC4BA300AC7476 /* MainViewController.h */;
+		name = "MainViewController.h: 13";
+		rLen = 0;
+		rLoc = 225;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 0;
+	};
+	446E07C914AC50D600AC7476 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 446E078314AC4BA300AC7476 /* MainViewController.m */;
+		name = "MainViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	446E07CA14AC50D600AC7476 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 446E07C414AC508500AC7476 /* EasyEat4iPhoneAppDelegate.h */;
+		name = "EasyEat4iPhoneAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 483;
+		vrLoc = 0;
+	};
+	449B7EE614AC54A20073A2C4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EasyEat4iPhoneAppDelegate.m */;
+	};
+	449B7EED14AC57310073A2C4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EasyEat4iPhoneAppDelegate.m */;
+		name = "EasyEat4iPhoneAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 508;
+		vrLoc = 3;
+	};
+	449B7EEE14AC57310073A2C4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EasyEat4iPhoneAppDelegate.m */;
+		name = "EasyEat4iPhoneAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 3;
+	};
+	449B7EF214AC57310073A2C4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EasyEat4iPhoneAppDelegate.m */;
+		name = "EasyEat4iPhoneAppDelegate.m: 21";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 0;
+	};
+	8D1107310486CEB800E47090 /* EasyEat4iPhone-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 163}, {877, 557}}";
+		};
+	};
+}
